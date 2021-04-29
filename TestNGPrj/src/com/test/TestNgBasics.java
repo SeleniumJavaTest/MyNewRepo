@@ -45,6 +45,12 @@ public class TestNgBasics
 	{
 		System.out.println("Printing search");
 	}
+	
+	@Test
+	public void myTestMethod()
+	{
+		System.out.println("This is new Test Method");
+	}
 	@AfterMethod
 	public void Logout()
 	{
